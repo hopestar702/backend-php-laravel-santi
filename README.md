@@ -1,14 +1,3 @@
-# Laravel Vuetable (Laravel 8.x/7.x/6.x/5.x Package)
-
-[![Build Status](https://travis-ci.org/santigarcor/laravel-vuetable.svg?branch=master)](https://travis-ci.org/santigarcor/laravel-vuetable)
-[![Latest Stable Version](https://poser.pugx.org/santigarcor/laravel-vuetable/v/stable)](https://packagist.org/packages/santigarcor/laravel-vuetable)
-[![Total Downloads](https://poser.pugx.org/santigarcor/laravel-vuetable/downloads)](https://packagist.org/packages/santigarcor/laravel-vuetable)
-[![StyleCI](https://styleci.io/repos/99027423/shield?branch=master)](https://styleci.io/repos/99027423)
-[![License](https://poser.pugx.org/santigarcor/laravel-vuetable/license)](https://packagist.org/packages/santigarcor/laravel-vuetable)
-
-Laravel Vuetable is the backend component that can work with the [Vuetable component](https://github.com/ratiw/vuetable-2).
-
-The latest release requires [PHP](https://php.net) 7.2.5-7.4 and supports Laravel 5.7, 5.8, 6.* ,7.* and 8.*
 
 | Laravel Vuetable  |  L5.4            | L5.5             | L5.6             | L5.7             | L5.8             | L6               | L7               | L8               |
 |-------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|
@@ -172,26 +161,3 @@ This controller is going to return:
   ],
 }
 ```
-
-## What does Laravel Vuetable support?
-
-Using the Eloquent Builder you can:
-- Filter/Sort by model columns.
-- Make joins and filter/sort by them.
-- Define the length of the pagination.
-- Add columns.
-- Edit columns (if the column has a cast defined, it doesn't work).
-
-Using the Collection you can:
-- Filter/Sort by model columns.
-- Define the length of the pagination.
-- Add columns.
-- Edit columns.
-
-## License
-
-Laravel Vuetable is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
-
-## Contributing
-
-Please report any issue you find in the issues page. Pull requests are more than welcome.
